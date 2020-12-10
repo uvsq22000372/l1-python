@@ -13,7 +13,7 @@ liste_couleur = ["blue", "green", "black", "yellow", "magenta", "red"]
 
 
 for i in range(nombre_cercles):
-    canvas.create_oval(i*10, i*10, CANVAS_WIDTH - i*10, CANVAS_HEIGHT - i*10, fill = liste_couleur[i%6])
+    canvas.create_rectangle(i*10, i*10, CANVAS_WIDTH - i*10, CANVAS_HEIGHT - i*10, fill = liste_couleur[i%6])
 
 canvas.grid()
 root.mainloop()
