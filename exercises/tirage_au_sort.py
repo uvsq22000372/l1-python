@@ -4,7 +4,7 @@ import random
 CANVAS_WIDTH, CANVAS_HEIGHT = 800, 600
 
 
-tirage = ["", "", "", ""]  #inscrire les éléments du tirage
+tirage = ["assiette de la terre", "crepes", "calamars", "poulet curry"]  #inscrire les éléments du tirage
 
 choix1 = random.choice(tirage)
 choix2 = random.choice(tirage), random.choice(tirage)
